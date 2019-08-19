@@ -1,0 +1,8 @@
+# Map function with lambda function - to get values from list
+products = [
+    ('Product1', 9),
+    ('Product2', 10),
+    ('Product3', 14)
+]
+prices = list(map(lambda item: item[1], products))
+print(prices)
