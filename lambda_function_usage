@@ -6,3 +6,8 @@ products = [
 ]
 prices = list(map(lambda item: item[1], products))
 print(prices)
+
+# Using list comprehension to iterate through the list (products)
+
+filtered = [item for item in products if item[1] >= 10]
+print(filtered)
